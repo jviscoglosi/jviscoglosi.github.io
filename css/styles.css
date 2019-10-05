@@ -1,3 +1,11 @@
+body{
+	background-color: black;
+}
+
 h1 {
-	color: blue;
+	color: white;	
+	text-align: center
+}
+.heart {
+	color: red;
 }
