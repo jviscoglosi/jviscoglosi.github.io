@@ -2,11 +2,32 @@ body{
 	background-color: black;
 }
 
-h1 {
+a{
+	color: inherit;
+}
+
+.jumbotron {
+	height: 300px;
+}
+
+#title{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;	
 	text-align: center
 }
 .heart {
 	color: red;
+}
+
+.card {
+	margin-bottom: 5px;
+}
+footer{
+	margin-top:100px;
+	background-color: #424242;
+	color: white;
+}
+.footer-copyright{
+	background-color: #242729;
+
 }
