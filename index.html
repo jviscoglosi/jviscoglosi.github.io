@@ -16,135 +16,117 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-	<!-- Top Intro Header -->		
-	<h1 id="title">Please <span class="heart">Enjoy!</span></h1>
-	
+<body>	
+	<!-- Jumbotron Section -->
+	<div class="container-jumbo">
+		<div class="title-text">
+			<h1>JOHN VISCOGLOSI</h1>
+			<hr>
+			<h4 class="text-center">SOFTWARE ENGINEER</h4>		
+		</div>
+		<div class="color-overlay"></div>
+	</div>
+
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+	<nav class="navbar navbar-expand-sm sticky-top">
 		<div class="container">
-			<a class="navbar-brand" href="#">Logo</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav">
+			<div class="collapse navbar-collapse navbar-right" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link1</a>
+						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link2</a>
+						<a class="nav-link" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link3</a>
+						<a class="nav-link" href="#education">Education</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link4</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
-			</div>
+			<!-- </div> -->
 		</div>
 	</nav>
 
-	<!-- Jumbotron Section -->
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1>Bootstrap Tutorial</h1>      
-			<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+	<!-- About -->
+	<div id="about" class="content-section">
+		<div class="container">	
+			<h2>About</h2> 
+			<hr>
+			<div class="row">			 
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div id="skills" class="content-section section-alt">
+		<div class="container">	
+			<h2>Skills</h2> 
+			<hr>
+			<div class="row">		 
+			</div>
 		</div>
 	</div>
 	
-	<!-- Projects -->
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="card">
-				<img class="card-img-top" src="img_avatar1.png" alt="Card image">
-				<div class="card-body">
-					<h4 class="card-title">John Doe</h4>
-					<p class="card-text">Some example text.</p>
-					<a href="#" class="btn btn-primary">See Profile</a>
-				</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="card">
-				<img class="card-img-top" src="img_avatar1.png" alt="Card image">
-				<div class="card-body">
-					<h4 class="card-title">John Doe</h4>
-					<p class="card-text">Some example text.</p>
-					<a href="#" class="btn btn-primary">See Profile</a>
-				</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="card">
-				<img class="card-img-top" src="img_avatar1.png" alt="Card image">
-				<div class="card-body">
-					<h4 class="card-title">John Doe</h4>
-					<p class="card-text">Some example text.</p>
-					<a href="#" class="btn btn-primary">See Profile</a>
-				</div>
-				</div>
+	<!-- Education -->
+	<div id="education" class="content-section">
+		<div class="container">
+			<h2>Education</h2>
+			<hr>
+			<div class="row">				
 			</div>
 		</div>
 	</div>
 
-	<!-- Footer -->
-<footer class="text-center">
+	<!-- Portfolio -->
+	<div id="portfolio" class="content-section section-alt">
+		<div class="container">
+			<h2>Portfolio</h2>
+			<hr>
+			<div class="row">						
+			</div>
+		</div>
+	</div>
 
-  <!-- Footer Elements -->
-  <div class="container">
+	<!-- Contact -->
+	<div id="contact" class="content-section section-contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<hr>
+			<div class="contact-forms">
+				<form>
+					<div class="form-group">
+						<input type="name" class="form-control" id="form-name" placeholder="Name" name="name">
+					</div>
 
-    <!-- Grid row-->
-    <div class="row">
+					<div class="form-group">
+						<input type="email" class="form-control" id="form-email" placeholder="Email address" name="email">
+					</div>
 
-      <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="footer-icons">
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="form-message" placeholder="Your message" name="message"></textarea>
+					</div>
 
-          <!-- Facebook -->
-          <a class="fb-ic" href="#">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic" href="#">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic" href="#">
-            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic" href="#">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic" href="#">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Pinterest-->
-          <a class="pin-ic" href="#">
-            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-          </a>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row-->
-
-  </div>
-  <!-- Footer Elements -->
+					<button type="submit" class="btn btn-primary contact-send">Send</button>
+				</form>
+			</div>
+			
+		</div>
+	</div>
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center">© 2019 Copyright:
-    <a href="https://viscoglosi.com"> viscoglosi.com</a>
-  </div>
-  <!-- Copyright -->
+  <!-- <div class="footer-copyright text-center">© 2019 Copyright:
+    <a href="https://viscoglosi.com">  Viscoglosi.com</a>
+  </div> -->
 
-</footer>
-<!-- Footer -->
 
 </body>
 </html>

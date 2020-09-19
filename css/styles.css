@@ -1,33 +1,128 @@
 body{
-	background-color: black;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color: #0f1025;
 }
 
 a{
 	color: inherit;
 }
 
-.jumbotron {
-	height: 300px;
+.navbar{
+	background-color: rgb(0,0,0);
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: small;
+} 
+
+.navbar a:hover {
+	color: #5B9BBC;
 }
 
-#title{
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;	
-	text-align: center
-}
-.heart {
-	color: red;
+.container-jumbo {
+	background-image: url('https://wallpapercave.com/wp/wp3608129.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: -51px;
+
 }
 
-.card {
-	margin-bottom: 5px;
+.color-overlay{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+	position: absolute;
 }
-footer{
-	margin-top:100px;
-	background-color: #424242;
+
+.title-text{
+	z-index: 1;
+}
+
+.title-text hr{
+	width: 75%;
+	border: 2px solid #5B9BBC;
+	background-color: #5B9BBC;
+}
+
+.title-text h1{
+	margin: 0;
+    padding: 0;
+	font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+	text-transform: uppercase;
 	color: white;
 }
-.footer-copyright{
-	background-color: #242729;
 
+.title-text h4{
+	margin: 0;
+    padding: 0;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.content-section{
+	padding-top: 75px;
+	height: 600px;
+}
+.container h2{
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container hr{
+	width: 370px;
+	border: 1px solid #5B9BBC;
+	background-color: #5B9BBC;
+}
+
+.section-alt{
+	background-color: rgb(238, 238, 238);
+}
+
+.section-contact{
+	background-color: rgb(13, 44, 90);
+	color: rgb(255, 255, 255);
+	height: 700px;
+}
+
+.contact-forms{
+	width: 55%;
+	min-width: 450px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.contact-send{
+	display: block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-size: small;
+	background-color: #5B9BBC;
+	border: none;
+}
+
+.contact-send:hover{
+	background-color: #497e99;
+}
+
+.form-control{
+	margin-top: 30px;
+}
+
+.footer-copyright{
+	background-color: #000000;
+	color: white;
 }
