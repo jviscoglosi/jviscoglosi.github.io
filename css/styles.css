@@ -96,12 +96,6 @@ a{
 	padding: 0px 100px;
 }
 
-@media (max-width: 800px) {
-    .container {
-        padding: 0px 10px;
-    }
-}
-
 .section-alt{
 	background-color: rgb(238, 238, 238);
 }
@@ -214,13 +208,6 @@ a{
 	margin: 0 auto;
 	margin-top: 60px;
 }
-
-@media (max-width: 1000px) {
-    .contact-forms{
-		width: 80%;
-	}
-}
-
 
 .contact-send{
 	display: block;
