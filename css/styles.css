@@ -14,6 +14,7 @@ a{
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	font-size: small;
+	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
 } 
 
 .navbar a:hover {
@@ -74,7 +75,8 @@ a{
 
 .content-section{
 	padding-top: 75px;
-	height: 600px;
+	/* height: 650px; */
+	padding-bottom: 100px;
 }
 .container h2{
 	letter-spacing: 0.08em;
@@ -86,12 +88,121 @@ a{
 	width: 370px;
 	border: 1px solid #5B9BBC;
 	background-color: #5B9BBC;
+	margin-bottom: 60px;
+}
+
+.container{
+	/* border: 2px solid yellow; */
+	padding: 0px 100px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 0px 10px;
+    }
 }
 
 .section-alt{
 	background-color: rgb(238, 238, 238);
 }
 
+.mini-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.content-section .container .subdivider{
+	width: 70px;
+	border: 1px solid rgb(13, 44, 90);
+	background-color: rgb(13, 44, 90);
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+/* About Section */
+.profile-image{
+	display: block;
+	margin-left: auto;
+	margin-right: 40px;
+	width: 80%;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
+}
+
+.quote{
+	font-style: italic;
+}
+
+/* Skills Section */
+#skills button{
+	width: 140px;
+	height: 50px;
+	margin: 20px 40px;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-size: small;
+	background-color: #5B9BBC;
+	color: white;
+	border: none;
+	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
+}
+#skills button:hover{
+	cursor: auto;
+}
+#skills button:focus{
+	outline: none;
+}
+
+#skills .row{
+	display: flex;
+	justify-content: center;
+}
+#skills .mini-title{
+	margin-top: 50px;	
+}
+#skills ul{
+	display: inline-block;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-size: medium;
+
+
+
+}
+/* Education Section */
+.school{
+	margin-bottom: 30px;	
+	text-transform: uppercase;
+}
+.OSU{
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+.degree{
+	font-size: medium;
+}
+#education .description{
+	font-size: small;
+}
+
+.graduated{
+	margin-top: 10px;
+}
+
+
+#education img{
+	width:20%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/* Contact Section */
 .section-contact{
 	background-color: rgb(13, 44, 90);
 	color: rgb(255, 255, 255);
@@ -100,10 +211,17 @@ a{
 
 .contact-forms{
 	width: 55%;
-	min-width: 450px;
 	margin: 0 auto;
 	margin-top: 60px;
 }
+
+@media (max-width: 1000px) {
+    .contact-forms{
+		width: 80%;
+	}
+}
+
+
 .contact-send{
 	display: block;
 	margin: 0 auto;
@@ -122,7 +240,58 @@ a{
 	margin-top: 30px;
 }
 
-.footer-copyright{
-	background-color: #000000;
+/* Portfolio Section */
+
+#portfolio .card-container{
+	width: 100%;
+	min-height: 350px;
+	margin-bottom: 100px;
+	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
+}
+
+
+#portfolio .card-left{
+	float: left;
+	width: 40%;
+	height: 350px;
+	overflow: hidden;
+	border: 2px solid  rgb(13, 44, 90);
+}
+
+.card-left img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#portfolio .card-right{
+
+	background-color: rgb(13, 44, 90);
 	color: white;
+	float: left;
+	width: 60%;
+	height: 350px;
+	padding: 30px 40px;
+}
+
+#portfolio .card-right-alt{
+	background-color: white;
+	color: rgb(13, 44, 90);
+	border: 2px solid  rgb(13, 44, 90);
+	border-left: none;
+}
+
+#portfolio .card-container hr{
+	width: 100%;
+	margin: 15px 0px;
+	border-color: #5B9BBC;
+}
+
+#portfolio .card-container h3, h4{
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+#portfolio .card-container span{
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
 }
