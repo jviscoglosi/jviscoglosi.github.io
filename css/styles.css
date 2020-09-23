@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body{
 	background-color: rgb(255, 255, 255);
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -88,7 +92,7 @@ a{
 	width: 370px;
 	border: 1px solid #5B9BBC;
 	background-color: #5B9BBC;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 
 .container{
@@ -206,7 +210,7 @@ a{
 .contact-forms{
 	width: 55%;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .contact-send{
@@ -224,7 +228,12 @@ a{
 }
 
 .form-control{
-	margin-top: 30px;
+	margin-top: 40px;
+}
+
+#contact .contact-desc{
+	margin: 5px 0px;
+	font-size: small;
 }
 
 /* Portfolio Section */
