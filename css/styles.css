@@ -240,24 +240,28 @@ a{
 
 #portfolio .card-container{
 	width: 100%;
-	min-height: 350px;
 	margin-bottom: 100px;
 	box-shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
+	outline: 1px solid  rgb(13, 44, 90);
+	border: 1px solid  rgb(13, 44, 90);
+	overflow: auto;
+	background-color: white;
+	border-inline-end-color: ;
 }
 
 
 #portfolio .card-left{
 	float: left;
 	width: 40%;
-	height: 350px;
 	overflow: hidden;
-	border: 2px solid  rgb(13, 44, 90);
+	border-right: 2px solid  rgb(13, 44, 90);
+	display: flex;
+	justify-content: center;
 }
 
 .card-left img{
-	width: 100%;
-	height: auto;
-	position: relative;
+	object-fit: cover;
+	height: 375px;
 }
 
 #portfolio .card-right{
@@ -265,16 +269,15 @@ a{
 	background-color: rgb(13, 44, 90);
 	color: white;
 	float: left;
+	height: inherit;
 	width: 60%;
-	height: 350px;
 	padding: 30px 40px;
 }
 
 #portfolio .card-right-alt{
 	background-color: white;
 	color: rgb(13, 44, 90);
-	border: 2px solid  rgb(13, 44, 90);
-	border-left: none;
+	
 }
 
 #portfolio .card-container hr{
