@@ -89,7 +89,7 @@ a{
 }
 
 .container hr{
-	width: 370px;
+	width: 40%;
 	border: 1px solid #5B9BBC;
 	background-color: #5B9BBC;
 	margin-bottom: 50px;
@@ -97,7 +97,7 @@ a{
 
 .container{
 	/* border: 2px solid yellow; */
-	padding: 0px 100px;
+	padding: 0px 7%;
 }
 
 .section-alt{
